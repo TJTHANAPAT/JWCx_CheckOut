@@ -14,7 +14,7 @@
 	
 	<style type="text/css">
 		body {
-			background: #ECECEC;
+			background: #D3E0EF;
 			font-family: 'Montserrat', sans-serif;
 			font-weight: 300;
 		}
@@ -41,7 +41,7 @@
 		}
 		
 		#Checkout , #Payment , #ItemList {
-			background: #E5E5E5;
+			background: #E5EDF5;
 			padding: 40px 50px;
 			margin: 20px;
 			border-radius: 8px;
@@ -102,7 +102,7 @@
 	<div class="container-fluid PageWrapper">
 	
 	<div id="Header" class="text-center">
-		<img style="max-height: 200px" src="https://www.jwc.in.th/assets/img/logo.png"/>
+		<a href="https://www.jwc.in.th/" target="_blank"><img style="max-height: 200px" src="https://www.jwc.in.th/assets/img/logo.png"/></a>
 	</div>	
 		
 	<div class="row">
@@ -211,32 +211,28 @@
 			</div>
 		</div>
 		
-		<!-- Button trigger modal -->
-
-
-<!-- Successfully Purchase -->
-<div class="modal fade" id="ConfirmBox" tabindex="-1" role="dialog" aria-labelledby="ConfirmBoxLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="ConfirmBoxLabel">Payment Confirmation</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Please check your payment carefully. To continue the payment press 'Confirm'.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <a role="button" href="https://getbootstrap.com/docs/4.0/components/modal/" class="btn btn-primary">Confirm</a>
-      </div>
-    </div>
-  </div>
-</div>
+		<!-- ConfirmBox -->
+		<div class="modal fade" id="ConfirmBox" tabindex="-1" role="dialog" aria-labelledby="ConfirmBoxLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="ConfirmBoxLabel">Payment Confirmation</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						Please check your payment carefully. To continue the payment press 'Confirm'.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<a role="button" href="https://www.jwc.in.th/" class="btn btn-primary">Confirm</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End of ConfirmBox-->
 		
-		<!-- Modal -->
-
 	</div>
 	</div>
 	<!--End of Payment Section-->
@@ -248,7 +244,7 @@
 	</div>
 	
 	<div id="footer" class="text-center">
-	<a href="https://www.facebook.com/thanapat.teerarattanyu">Made with &#x2764; by TJ.THANAPAT</a>
+	<a href="https://www.facebook.com/thanapat.teerarattanyu" target="_blank">Made with &#x2764; by TJ.THANAPAT</a>
 	</div>
 </body>
 	
